@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="Vlead.login.test">
+        <methods>
+          <include name="vlead_client_automation6"/>
+          <include name="vlead_client_automation1"/>
+          <include name="vlead_client_automation5"/>
+          <include name="Pre_Condition"/>
+          <include name="vlead_client_automation3"/>
+          <include name="vlead_client_automation4"/>
+        </methods>
+      </class> <!-- Vlead.login.test -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
