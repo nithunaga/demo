@@ -12,7 +12,7 @@ public class AppTest {
     public static void main(String[] args) throws InterruptedException, IOException {
         // Set system property to Chrome driver path
        System.setProperty("webdriver.gecko.driver", "C:\\Users\\nithya.m\\geckodriver-v0.34.0-win64\\geckodriver.exe");
-        Webdriver = new FirefoxDriver();
+        WebDriver driver = new FirefoxDriver();
         // Open Google website
         driver.get("https://www.google.com/");
 
